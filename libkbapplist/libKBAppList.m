@@ -27,7 +27,16 @@
 }
 
 -(void)setupAllAppsList{
-
+    NSMutableArray* sortingAppList= [ NSMutableArray new];
+    NSMutableArray* sortingAppBundleID= [ NSMutableArray new];
+    
+    for (LSApplicationProxy *app in [[%c(LSApplicationWorkspace) defaultWorkspace] allInstalledApplications]) {
+  
+            [sortingAppList addObject:app.localizedName];
+            [sortingAppBundleID addObject:app.bundleIdentifier];
+        
+    }
+    
 }
 
 -(void)setupSystemAppsList{
