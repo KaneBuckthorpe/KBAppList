@@ -15,3 +15,6 @@ Requires a unique ID key for saving the list in preferences, which can be retrie
 Can also take a Post Notification Key, to allow you to instantly retrieve the new listed of selected apps whenever a change to the selected apps is made.
 
 Example use has been provided. 
+
+
+[[https://github.com/kanebetas/KBAppList/blob/master/img/kbapplist.png|alt=kbapplist]]
