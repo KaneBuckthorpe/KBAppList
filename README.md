@@ -9,12 +9,24 @@ Can also take a Post Notification Key, to allow you to instantly retrieve the ne
 
 Example use has been provided. 
 
+## Information
+| Available Lists (Tweaks) | iOS 8-   | iOS 9    | iOS 10 | iOS 11+ |
+|--------------------------|----------|----------|--------|--------|
+| All Apps                 | UNTESTED | UNTESTED | YES    | YES    |
+| User Apps                | UNTESTED | UNTESTED | YES    | YES    |
+| System Apps              | UNTESTED | UNTESTED | YES    | YES    |
+| Audio Apps               | UNTESTED | UNTESTED | YES    | YES    |
+
+---
+
+| Available Lists (Preferences) | iOS 8-   | iOS 9    | iOS 10 | iOS 11+ |
+|--------------------------|----------|----------|--------|--------|
+| All Apps                 | NO | UNTESTED | YES    | YES    |
+| User Apps                | NO | UNTESTED | YES    | YES    |
+| System Apps              | NO | UNTESTED | YES    | YES    |
+| Audio Apps               | NO | UNTESTED | YES    | YES    |
+
+---
+
 ![KBAppList](repo_assets/KBAppList.png)
 ![KBAppList](repo_assets/search.png)
-
-
-## Information
-| Available Lists | All Apps | User Apps | System Apps | Audio Apps |
-|-----------------|----------|-----------|-------------|------------|
-
-
