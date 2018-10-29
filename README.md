@@ -16,5 +16,4 @@ Can also take a Post Notification Key, to allow you to instantly retrieve the ne
 
 Example use has been provided. 
 
-
-[[https://github.com/kanebetas/KBAppList/blob/master/img/kbapplist.png|alt=kbapplist]]
+![KBAppList](repo_assets/KBAppList.png)
