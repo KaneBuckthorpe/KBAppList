@@ -22,5 +22,6 @@ Example use has been provided.
 
 ## Information
 
-| Available Lists | | ----- |
+| Available Lists |
+| ----- |
 | All Apps | User Apps | System Apps | Audio Apps | 
