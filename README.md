@@ -13,7 +13,7 @@ Can also take a Post Notification Key, to allow you to instantly retrieve the ne
 ## Information
 
 #### Tweak
-| Available Lists (Tweaks) | iOS 8- | iOS 9 | iOS 10 | iOS 11+ |
+| Available Lists | iOS 8- | iOS 9 | iOS 10 | iOS 11+ |
 |--------------------------|----------|----------|--------|--------|
 | All Apps                 | UNTESTED | UNTESTED | YES    | YES    |
 | User Apps                | UNTESTED | UNTESTED | YES    | YES    |
