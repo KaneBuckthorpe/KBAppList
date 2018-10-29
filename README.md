@@ -11,6 +11,8 @@ Can also take a Post Notification Key, to allow you to instantly retrieve the ne
 |--------------------------|----------|----------|
 
 ## Information
+
+#### Tweak
 | Available Lists (Tweaks) | iOS 8- | iOS 9 | iOS 10 | iOS 11+ |
 |--------------------------|----------|----------|--------|--------|
 | All Apps                 | UNTESTED | UNTESTED | YES    | YES    |
@@ -19,13 +21,20 @@ Can also take a Post Notification Key, to allow you to instantly retrieve the ne
 | Audio Apps               | UNTESTED | UNTESTED | YES    | YES    |
 
 ---
-
-| Available Lists (Preferences) | iOS 8- | iOS 9 | iOS 10 | iOS 11+ |
+#### Preferences
+| Available Lists | iOS 8- | iOS 9 | iOS 10 | iOS 11+ |
 |--------------------------|----------|----------|--------|--------|
-| All Apps                 | NO | UNTESTED | YES    | YES    |
-| User Apps                | NO | UNTESTED | YES    | YES    |
-| System Apps              | NO | UNTESTED | YES    | YES    |
-| Audio Apps               | NO | UNTESTED | YES    | YES    |
+| All Apps                 |    NO    | UNTESTED |  YES   |  YES   |
+| User Apps                |    NO    | UNTESTED |  YES   |  YES   |
+| System Apps              |    NO    | UNTESTED |  YES   |  YES   |
+| Audio Apps               |    NO    | UNTESTED |  YES   |  YES   |
+
+| Pref Keys                |  iOS 8-  |   iOS 9  | iOS 10 | iOS 11+|
+|--------------------------|----------|----------|--------|--------|
+| All Apps                 |    NO    | UNTESTED |  YES   |  YES   |
+| User Apps                |    NO    | UNTESTED |  YES   |  YES   |
+| System Apps              |    NO    | UNTESTED |  YES   |  YES   |
+| Audio Apps               |    NO    | UNTESTED |  YES   |  YES   |
 
 ---
 
