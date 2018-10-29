@@ -7,7 +7,8 @@ It comes with drag and drop, quick edit, and search capabillities to improve use
 Requires a unique ID key for saving the list in preferences, which can be retrieved in a number of ways. The recommended method is NSUserDefaults.
 Can also take a Post Notification Key, to allow you to instantly retrieve the new listed of selected apps whenever a change to the selected apps is made.
 
-Example use has been provided. 
+[Headers](https://github.com/Tonyk7/Tweaks/tree/master/kbapplist/headers) 
+[Example Use](https://github.com/Tonyk7/Tweaks/tree/master/kbapplist/Example) 
 
 ## Information
 | Available Lists (Tweaks) | iOS 8-   | iOS 9    | iOS 10 | iOS 11+ |
