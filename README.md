@@ -18,3 +18,13 @@ Example use has been provided.
 
 ![KBAppList](repo_assets/KBAppList.png)
 ![KBAppList](repo_assets/search.png)
+
+
+## Information
+
+| Available Lists |
+| ----- |
+| All Apps |
+| User Apps |
+| System Apps |
+| Audio Apps | 
