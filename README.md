@@ -17,3 +17,4 @@ Can also take a Post Notification Key, to allow you to instantly retrieve the ne
 Example use has been provided. 
 
 ![KBAppList](repo_assets/KBAppList.png)
+![KBAppList](repo_assets/search.png)
