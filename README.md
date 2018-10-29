@@ -29,12 +29,13 @@ Can also take a Post Notification Key, to allow you to instantly retrieve the ne
 | System Apps              |    NO    | UNTESTED |  YES   |  YES   |
 | Audio Apps               |    NO    | UNTESTED |  YES   |  YES   |
 
-| Pref Keys                |  iOS 8-  |   iOS 9  | iOS 10 | iOS 11+|
-|--------------------------|----------|----------|--------|--------|
-| All Apps                 |    NO    | UNTESTED |  YES   |  YES   |
-| User Apps                |    NO    | UNTESTED |  YES   |  YES   |
-| System Apps              |    NO    | UNTESTED |  YES   |  YES   |
-| Audio Apps               |    NO    | UNTESTED |  YES   |  YES   |
+|        Keys        |    Option 1   |       Option 2      | Option 3 |  Option 4 |
+|:------------------:|:-------------:|:-------------------:|:--------:|:---------:|
+|   preferencesKey   | UNIQUE STRING |                     |          |           |
+|       default      |   "selected"  | "unselected" or nil |          |           |
+| postNotificationID | UNIQUE STRING |         nil         |          |           |
+|       appList      |   "userApps"  |     "systemApps"    | "allApps"|"audioApps"|
+|        label       |     STRING    |         nil         |          |           |
 
 ---
 
