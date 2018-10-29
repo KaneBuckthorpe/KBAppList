@@ -12,6 +12,6 @@ The preferences, unlike all other iOS preference panes makes use of a UICollecti
 It comes with drag and drop, quick edit, and search capabillities to improve user use within you tweaks.
 
 Requires a unique ID key for saving the list in preferences, which can be retrieved in a number of ways. The recommended method is NSUserDefaults.
-Can also take a Post Notification Key, to allow you to instantly retrieve the new listed of selected apps whenever a change to the seclected apps is made.
+Can also take a Post Notification Key, to allow you to instantly retrieve the new listed of selected apps whenever a change to the selected apps is made.
 
 Example use has been provided. 
