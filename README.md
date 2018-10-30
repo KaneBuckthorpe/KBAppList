@@ -46,5 +46,5 @@ Can also take a Post Notification Key, to allow you to instantly retrieve the ne
 ## License 
 Please dont steel code!
 
-This software is licensed under the BSD 4 License, detailed in the file [LICENSE.md](https://github.com/kanesbetas/homeswitcher/blob/master/LICENSE.md)
+This software is licensed under the BSD 4 License, detailed in the file [LICENSE.md](https://github.com/kanesbetas/KBAppList/blob/master/LICENSE.md)
 If you do wish to use this code in your project then in addition to the License agreement you must also provie a link to my website https://kanebuckthorpe.co.uk. If for any reason you do not wish to include my website in your project, then please contact me so we can discuss another agreement.
