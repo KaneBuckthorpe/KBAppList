@@ -12,7 +12,7 @@
 @property (nonatomic, strong) NSMutableArray *selectedApps;
 @property (nonatomic, strong) NSMutableArray *unselectedApps;
 @property (nonatomic,assign) NSString* postNotificationID; 
-@property (nonatomic,assign) NSString* preferencesKey; 
-
+@property (nonatomic,assign) NSString* preferencesID; 
+@property (nonatomic,assign) int selectionAllowance; 
 @end
 

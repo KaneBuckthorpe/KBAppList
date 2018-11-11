@@ -11,7 +11,7 @@
 			<string>testpref First Page</string>
 		</dict>
 		<dict>
-			<key>preferencesKey</key>
+			<key>preferencesID</key>
 			<string>KBUserAppList</string>
 			<key>default</key>
 			<string>selected</string>
@@ -31,7 +31,7 @@
 			<true/>
 		</dict>
 		<dict>
-			<key>preferencesKey</key>
+			<key>preferencesID</key>
 			<string>KBSystemAppList</string>
 			<key>default</key>
 			<string></string>
@@ -49,7 +49,7 @@
 			<string>icon.png</string>
 		</dict>
 		<dict>
-			<key>preferencesKey</key>
+			<key>preferencesID</key>
 			<string>KBAllAppList</string>
 			<key>default</key>
 			<string></string>
@@ -67,7 +67,7 @@
 			<string>icon.png</string>
 		</dict>
 		<dict>
-			<key>preferencesKey</key>
+			<key>preferencesID</key>
 			<string>KBMusicAppList</string>
 			<key>default</key>
 			<string></string>
