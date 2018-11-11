@@ -21,6 +21,8 @@
 			<string>userApps</string>
 			<key>label</key>
 			<string>userApps</string>
+			<key>selectionAllowance</key>
+			<string>5</string>
 			<key>cell</key>
 			<string>PSLinkCell</string>
 			<key>detail</key>
@@ -41,6 +43,8 @@
 			<string>systemApps</string>
 			<key>label</key>
 			<string>systemApps</string>
+			<key>selectionAllowance</key>
+			<string>1</string>
 			<key>cell</key>
 			<string>PSLinkCell</string>
 			<key>detail</key>
@@ -59,6 +63,8 @@
 			<string>allApps</string>
 			<key>label</key>
 			<string>allApps</string>
+			<key>selectionAllowance</key>
+			<string>10</string>
 			<key>cell</key>
 			<string>PSLinkCell</string>
 			<key>detail</key>
@@ -77,6 +83,8 @@
 			<string>audioApps</string>
 			<key>label</key>
 			<string>audioApps</string>
+			<key>selectionAllowance</key>
+			<string></string>
 			<key>cell</key>
 			<string>PSLinkCell</string>
 			<key>detail</key>
