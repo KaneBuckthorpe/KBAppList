@@ -31,11 +31,12 @@ Can also take a Post Notification Key, to allow you to instantly retrieve the ne
 
 |        Keys        |    Option 1   |       Option 2      | Option 3 |  Option 4 |
 |:------------------:|:-------------:|:-------------------:|:--------:|:---------:|
-|   preferencesKey   | UNIQUE STRING |                     |          |           |
+|   preferencesID   | UNIQUE STRING |                     |          |           |
 |       default      |   "selected"  | "unselected" or nil |          |           |
 | postNotificationID | UNIQUE STRING |         nil         |          |           |
 |       appList      |   "userApps"  |     "systemApps"    | "allApps"|"audioApps"|
 |        label       |     STRING    |         nil         |          |           |
+| selectionAllowance |    INTEGER    |         nil         |          |           |
 
 ---
 
