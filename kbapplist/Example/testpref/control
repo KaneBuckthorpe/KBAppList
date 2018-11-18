@@ -1,0 +1,9 @@
+Package: com.yourcompany.testpref
+Name: testpref
+Depends: mobilesubstrate, com.kaneb.kbapplist
+Version: 0.0.2
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: System Administrator
+Author: System Administrator
+Section: Tweaks

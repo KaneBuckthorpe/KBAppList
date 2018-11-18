@@ -1,14 +1,16 @@
+export ARCHS=arm64
+
 include $(THEOS)/makefiles/common.mk
 
-BUNDLE_NAME = testpref
-testpref_FILES = KBTRootListController.m
-testpref_INSTALL_PATH = /Library/PreferenceBundles
-testpref_FRAMEWORKS = UIKit
-testpref_PRIVATE_FRAMEWORKS = Preferences
-testpref_EXTRA_FRAMEWORKS += KBAppList
+TWEAK_NAME = testpref
+testpref_FILES = Tweak.xm
 
-include $(THEOS_MAKE_PATH)/bundle.mk
+testpref_EXTRA_FRAMEWORKS = KBAppList
+testpref_CFLAGS = -fobjc-arc
 
-internal-stage::
-	$(ECHO_NOTHING)mkdir -p $(THEOS_STAGING_DIR)/Library/PreferenceLoader/Preferences$(ECHO_END)
-	$(ECHO_NOTHING)cp entry.plist $(THEOS_STAGING_DIR)/Library/PreferenceLoader/Preferences/testpref.plist$(ECHO_END)
+include $(THEOS_MAKE_PATH)/tweak.mk
+
+after-install::
+	install.exec "killall -9 SpringBoard"
+SUBPROJECTS += testpref
+include $(THEOS_MAKE_PATH)/aggregate.mk
