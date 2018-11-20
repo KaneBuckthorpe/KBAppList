@@ -47,7 +47,7 @@ Finally retrieving the values from the Tweak.xm file can be easily done like suc
     NSArray *appsName = [apps valueForKey:@"name"];
     NSArray *appsID = [apps valueForKey:@"bundleID"];
   ```
-If you are going to use postNotifcation you can use this before the %hook.
+If you are going to use postNotifcation you can use this outside the %hook.
 ```
 static void loadPrefs() {
 NSUserDefaults *preferences = [[NSUserDefaults alloc] initWithSuiteName:@"com.example.tweak"];
