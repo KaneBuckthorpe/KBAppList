@@ -28,7 +28,7 @@ when the installation process is complete, you have to add the latest KBAppList 
            <key>label</key>
            <string>DISPLAYNAME</string> <!-- What the tab will be called in the settings app -->
            <key>postNotification</key> <!-- This is if you want to use system notifications for real time preference changes -->
-       		<string>com.example.tweak-prefsreload</string>
+           <string>com.example.tweak-prefsreload</string>
            <key>cell</key>
            <string>PSLinkCell</string>
            <key>detail</key>
