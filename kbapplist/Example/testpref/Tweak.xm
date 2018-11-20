@@ -1,15 +1,14 @@
 #import <UIKit/UIKit.h>
 #import <KBAppList/KBAppList.h>
 
-static void
-loadPrefs() {
+static void loadPrefs() {
 NSUserDefaults *preferences = [[NSUserDefaults alloc] initWithSuiteName:@"com.example.tweak"];
 NSArray *apps = [preferences objectForKey:@"UNIQUEID"];
 NSArray *appsName = [apps valueForKey:@"name"];
 NSArray *appsID = [apps valueForKey:@"bundleID"];
 }
 
-//Optional for real time pref change
+//Optional if using postNotifcation, if not just ignore this
 %ctor {
     CFNotificationCenterAddObserver(
     CFNotificationCenterGetDarwinNotifyCenter(), NULL,
@@ -20,7 +19,6 @@ NSArray *appsID = [apps valueForKey:@"bundleID"];
 }
 
 %hook SpringBoard
-loadPrefs(); //Only put this here if you didnt use the code above
 - (void)applicationDidFinishLaunching:(id)application {
   %orig;
   NSLog(@"musicDict:%@", musicApps);

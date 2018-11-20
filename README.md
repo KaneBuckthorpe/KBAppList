@@ -47,6 +47,24 @@ Finally retrieving the values from the Tweak.xm file can be easily done like suc
     NSArray *appsName = [apps valueForKey:@"name"];
     NSArray *appsID = [apps valueForKey:@"bundleID"];
   ```
+If you are going to use postNotifcation you can use this before the %hook.
+```
+static void loadPrefs() {
+NSUserDefaults *preferences = [[NSUserDefaults alloc] initWithSuiteName:@"com.example.tweak"];
+NSArray *apps = [preferences objectForKey:@"UNIQUEID"];
+NSArray *appsName = [apps valueForKey:@"name"];
+NSArray *appsID = [apps valueForKey:@"bundleID"];
+}
+
+%ctor {
+    CFNotificationCenterAddObserver(
+    CFNotificationCenterGetDarwinNotifyCenter(), NULL,
+    (CFNotificationCallback)loadPrefs,
+    CFSTR("com.example.tweak-prefsreload"), NULL,
+    CFNotificationSuspensionBehaviorDeliverImmediately);
+    loadPrefs();
+}
+```
 
 ## Information
 
