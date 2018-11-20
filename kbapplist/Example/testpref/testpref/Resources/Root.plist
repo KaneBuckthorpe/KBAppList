@@ -4,15 +4,13 @@
 <dict>
 	<key>items</key>
 	<array>
-	<dict>
+	<dict> <!-- Example of a Tab with default as selected and user apps only -->
 		<key>key</key>
 		<string>KBUserAppList</string>
 		<key>defaults</key>
-		<string>com.kaneb.kbapplist</string>
+		<string>com.example.tweak</string>
 		<key>default</key>
 		<string>selected</string>
-		<key>postNotification</key>
-		<string>com.kaneb.kbapplist/prefChanged</string>
 		<key>appList</key>
 		<string>userApps</string>
 		<key>label</key>
@@ -28,15 +26,15 @@
 		<key>isController</key>
 		<true/>
 	</dict>
-	<dict>
+	<dict> <!-- Example of tab with default as unselected and  only system apps with postNotifcation-->
 		<key>defaults</key>
-		<string>com.kaneb.kbapplist</string>
+		<string>com.example.tweak</string>
 		<key>key</key>
 		<string>KBSystemAppList</string>
 		<key>default</key>
 		<string></string>
 		<key>postNotification</key>
-		<string>com.kaneb.kbapplist/prefChanged</string>
+		<string>com.example.tweak-prefsreload</string>
 		<key>appList</key>
 		<string>systemApps</string>
 		<key>label</key>
@@ -50,15 +48,14 @@
 		<key>icon</key>
 		<string>icon.png</string>
 	</dict>
-	<dict>
+	<dict> <!-- Example of a tab with default as unselected and all apps-->
 		<key>defaults</key>
-		<string>com.kaneb.kbapplist</string>
+		<string>com.example.tweak</string>
 		<key>key</key>
 		<string>KBAllAppList</string>
 		<key>default</key>
 		<string></string>
 		<key>postNotification</key>
-		<string>com.kaneb.kbapplist/prefChanged</string>
 		<key>appList</key>
 		<string>allApps</string>
 		<key>label</key>
@@ -70,35 +67,15 @@
 		<key>icon</key>
 		<string>icon.png</string>
 	</dict>
-	<dict>
+	<dict> <!-- Example of a tab with default as unselected and only auio apps with postNotifcation-->
 		<key>defaults</key>
-		<string>com.kaneb.kbapplist</string>
+		<string>com.example.tweak</string>
 		<key>key</key>
 		<string>KBMusicAppList</string>
 		<key>default</key>
 		<string></string>
 		<key>postNotification</key>
-		<string>com.kaneb.kbapplist/prefChanged</string>
-		<key>appList</key>
-		<string>audioApps</string>
-		<key>label</key>
-		<string>audioApps</string>
-		<key>cell</key>
-		<string>PSLinkCell</string>
-		<key>detail</key>
-		<string>ALViewController</string>
-		<key>icon</key>
-		<string>icon.png</string>
-	</dict>
-	<dict>
-		<key>defaults</key>
-		<string></string>
-		<key>key</key>
-		<string>KBMusicAppList</string>
-		<key>default</key>
-		<string></string>
-		<key>postNotification</key>
-		<string>com.kaneb.kbapplist/prefChanged</string>
+		<string>com.example.tweak-prefsreload</string>
 		<key>appList</key>
 		<string>audioApps</string>
 		<key>label</key>
