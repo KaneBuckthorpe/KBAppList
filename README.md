@@ -3,10 +3,10 @@
 Framework for access to lists of installed apps and cool app selection preference panes!
 
 The preferences, unlike all other iOS preference panes makes use of a UICollectionView with a fresh but iOS like look rather then the standard UITableView.
-It comes with drag and drop, quick edit, and search capabillities to improve user use within your tweaks.
+It comes with drag and drop, quick edit, and search capabillities to improve user experience within your tweaks.
 
-Requires a unique ID key for saving the list in preferences, which can be retrieved in a number of ways. The recommended method is NSUserDefaults.
-Can also take a Post Notification Key, to allow you to instantly retrieve the new listed of selected apps whenever a change to the selected apps is made.
+Requires a unique ID for saving the list in preferences, which can be retrieved in a number of ways. The recommended method is NSUserDefaults.
+Can also use Post Notification, to allow you to instantly retrieve the new listed of selected apps whenever a change to the selected apps is made.
 
 | Downloads: | [Latest Release](https://github.com/kanesbetas/KBAppList/releases/latest) | [Headers](https://github.com/kanesbetas/KBAppList/tree/master/kbapplist/headers) | [Example Use](https://github.com/kanesbetas/KBAppList/tree/master/kbapplist/Example) | [Package](https://github.com/kanesbetas/KBAppList/tree/master/kbapplist/packages) | [Framework](https://github.com/kanesbetas/KBAppList/tree/master/kbapplist/Framework)   |
 ## How To Use?
@@ -18,16 +18,16 @@ when the installation process is complete, you have to add the latest KBAppList 
 
         <dict>
            <key>key</key>
-           <string>UNIQUEID</string> <!-- so thats like the prefs key, for getting it later yeah -->
+           <string>UNIQUEID</string> <!-- your unique prefs key, for retrieving selected apps in your tweak -->
            <key>defaults</key>
            <string>com.example.tweak</string> <!-- The pref's bundleID -->
            <key>default</key>
            <string></string> <!-- This will default to all apps being unselected -->
            <key>appList</key>
-           <string></string> <!-- This will default to show all apps -->
+           <string>allApps</string> <!-- Choose which apps should be displayed for selection -->
            <key>label</key>
            <string>DISPLAYNAME</string> <!-- What the tab will be called in the settings app -->
-           <key>postNotification</key> <!-- This is Optional if you want to use system Notifications for real time preference change -->
+           <key>postNotification</key> <!-- This is if you want to use system notifications for real time preference changes -->
        		<string>com.example.tweak-prefsreload</string>
            <key>cell</key>
            <string>PSLinkCell</string>
@@ -80,13 +80,6 @@ NSArray *appsID = [apps valueForKey:@"bundleID"];
 |        label       |     STRING    |         nil         |           |             |
 | selectionAllowance |    INTEGER    |         nil         |           |             |
 
-
-| Available Lists | iOS 8- | iOS 9    | iOS 10 | iOS 11+ |
-| --------------- | ------ | -------- | ------ | ------- |
-| All Apps        | NO     | UNTESTED | YES    | YES     |
-| User Apps       | NO     | UNTESTED | YES    | YES     |
-| System Apps     | NO     | UNTESTED | YES    | YES     |
-| Audio Apps      | NO     | UNTESTED | YES    | YES     |
 * * *
 
 ![KBAppList](repo_assets/KBAppList.png)
