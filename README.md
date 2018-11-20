@@ -8,7 +8,7 @@ It comes with drag and drop, quick edit, and search capabillities to improve use
 Requires a unique ID for saving the list in preferences, which can be retrieved in a number of ways. The recommended method is NSUserDefaults.
 Can also use Post Notification, to allow you to instantly retrieve the new listed of selected apps whenever a change to the selected apps is made.
 
-| Downloads: | [Latest Release](https://github.com/kanesbetas/KBAppList/releases/latest) | [Headers](https://github.com/kanesbetas/KBAppList/tree/master/kbapplist/headers) | [Example Use](https://github.com/kanesbetas/KBAppList/tree/master/kbapplist/Example) | [Package](https://github.com/kanesbetas/KBAppList/tree/master/kbapplist/packages) | [Framework](https://github.com/kanesbetas/KBAppList/tree/master/kbapplist/Framework)   |
+| Downloads: | [Latest Release](https://github.com/kanesbetas/KBAppList/releases/latest) | [Headers](https://github.com/kanesbetas/KBAppList/tree/master/kbapplist/headers) | [Example Use](https://github.com/kanesbetas/KBAppList-Example) | [Package](https://github.com/kanesbetas/KBAppList/tree/master/kbapplist/packages) | [Framework](https://github.com/kanesbetas/KBAppList/tree/master/kbapplist/Framework)   |
 ## How To Use?
 
 First, You have to install the latest [deb](https://github.com/kanesbetas/KBAppList/tree/master/kbapplist/packages).
