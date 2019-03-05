@@ -92,4 +92,4 @@ NSArray *appsID = [apps valueForKey:@"bundleID"];
 Please dont steel code!
 
 This software is licensed under the BSD 4 License, detailed in the file [LICENSE.md](https://github.com/kanesbetas/KBAppList/blob/master/LICENSE.md)
-If you do wish to use this code in your project then in addition to the License agreement you must also provide a link to my twitter [@IndieDevKB](https://twitter.com/indiedevkb). If for any reason you do not wish to include my website in your project, then please contact me so we can discuss another agreement.
+If you do wish to use this code in your project then in addition to the License agreement you must also provide a link to my twitter [@IndieDevKB](https://twitter.com/indiedevkb). If for any reason you do not wish to include my twitter in your project, then please contact me so we can discuss another agreement.
