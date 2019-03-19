@@ -1,0 +1,10 @@
+Package: com.kaneb.kbapplist
+Name: KBAppList
+Depends: 
+Version: 0.0.5
+Architecture: iphoneos-arm
+Description: Kane's AppList
+Maintainer: Kane Buckthorpe
+Author: Kane Buckthorpe
+Section: System
+Tag: role::developer
